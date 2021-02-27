@@ -1,0 +1,139 @@
+body {
+  background-color: #f8f1f1;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.contentBlock {
+  display: inline-flex;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+
+.leftBlock {
+  background-color: #a3d2ca;
+  width: 30em;
+  height: 50em;
+  display: inline-block;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+
+.rightBlock {
+  background-color: #5eaaa8;
+  width: 30em;
+  height: 50em;
+  display: inline-block;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+button {
+  border: none;
+  outline: none;
+  padding: 10px 32px;
+  border-radius: 25px;
+  background-color: white;
+  opacity: 0.8;
+  cursor: pointer;
+  transition: all 0.2s;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 1.75rem 3.5rem rgba(0, 0, 0, 0.1);
+}
+
+button:active {
+  transform: translate(3%, 1px);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+}
+.btnNewGame {
+  display: flex;
+  text-align: center;
+  position: fixed;
+  left: 38%;
+  top: 3em;
+  text-size-adjust: auto;
+  height: 2em;
+  font-size: 2rem;
+}
+
+.rollDiceButton {
+  display: flex;
+  text-align: center;
+  position: fixed;
+  left: 41.5%;
+  top: 20em;
+  text-size-adjust: auto;
+  height: 2em;
+  font-size: 1.5rem;
+  padding: 10px 32px;
+}
+
+.holdPoint {
+  display: flex;
+  text-align: center;
+  position: fixed;
+  left: 44%;
+  top: 24em;
+  text-size-adjust: auto;
+  height: 2em;
+  font-size: 1.5rem;
+  padding: 10px 32px;
+}
+
+.playerOneContent {
+  display: inline-block;
+  position: fixed;
+  /* height: 20em; */
+  left: 15%;
+  top: 35%;
+  font-size: 3rem;
+  color: white;
+  text-align: center;
+}
+
+.currentPointPlayerOne {
+  display: inline-block;
+  position: fixed;
+  text-align: center;
+  left: 12.5%;
+  top: 80%;
+  font-size: 1.5rem;
+  color: white;
+  background-color: #214151;
+  width: 10em;
+  border-radius: 25px;
+}
+
+.playerTwoContent {
+  display: inline-block;
+  position: fixed;
+  /* height: 20em; */
+  left: 65%;
+  top: 35%;
+  font-size: 3rem;
+  color: white;
+  text-align: center;
+}
+
+.currentPointPlayerTwo {
+  display: inline-block;
+  position: fixed;
+  text-align: center;
+  left: 62.5%;
+  top: 80%;
+  font-size: 1.5rem;
+  color: white;
+  background-color: #214151;
+  width: 10em;
+  border-radius: 25px;
+}
+
+.diceImage {
+  display: inline-block;
+  position: fixed;
+  width: 13%;
+  left: 43.5%;
+  top: 30%;
+}
